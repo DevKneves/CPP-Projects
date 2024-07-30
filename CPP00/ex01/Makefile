@@ -1,10 +1,10 @@
-SRC = phonebook.cpp contact.cpp
+SRC = PhoneBook.cpp Contact.cpp
 
 NAME = phonebook
 OBJ = $(SRC:.cpp=.o)
-CC = g++
+CC = c++
 RM = rm -rf
-CFLAGS = -Wall -Wextra -Werror
+CFLAGS = -Wall -Wextra -Werror -std=c++98
 USER = kneves
 
 Reset = \033[0m
